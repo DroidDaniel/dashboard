@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-Roman.eot');
+    src: url('HelveticaLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaLTStd-Roman.woff2') format('woff2'),
+        url('HelveticaLTStd-Roman.woff') format('woff'),
+        url('HelveticaLTStd-Roman.ttf') format('truetype'),
+        url('HelveticaLTStd-Roman.svg#HelveticaLTStd-Roman') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica LT Std';
+    src: url('HelveticaLTStd-Bold.eot');
+    src: url('HelveticaLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaLTStd-Bold.woff2') format('woff2'),
+        url('HelveticaLTStd-Bold.woff') format('woff'),
+        url('HelveticaLTStd-Bold.ttf') format('truetype'),
+        url('HelveticaLTStd-Bold.svg#HelveticaLTStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sans Pro';
+    src: url('SansPro.eot');
+    src: url('SansPro.eot?#iefix') format('embedded-opentype'),
+        url('SansPro.woff2') format('woff2'),
+        url('SansPro.woff') format('woff'),
+        url('SansPro.ttf') format('truetype'),
+        url('SansPro.svg#SansPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kuroneko DEMO';
+    src: url('KuronekoDEMO-Regular.eot');
+    src: url('KuronekoDEMO-Regular.eot?#iefix') format('embedded-opentype'),
+        url('KuronekoDEMO-Regular.woff2') format('woff2'),
+        url('KuronekoDEMO-Regular.woff') format('woff'),
+        url('KuronekoDEMO-Regular.ttf') format('truetype'),
+        url('KuronekoDEMO-Regular.svg#KuronekoDEMO-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
