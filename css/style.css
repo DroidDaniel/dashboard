@@ -9,12 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.navbar-brand span{
-  font-size: 20px;
-    font-family: 'Kuroneko DEMO';
-    margin: 35px 0;
-}
-
 /**scroll**/
 .scrolldemo a {
   position: absolute;
@@ -164,23 +158,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#067f49', end
 .card-title
 {
   font-weight: bold;
-   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f36e21+0,f8991d+99 */
-background: #f36e21; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #f36e21 0%, #f8991d 99%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #f36e21 0%,#f8991d 99%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #f36e21 0%,#f8991d 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36e21', endColorstr='#f8991d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff8b1e+41,ff7c00+65,ff8514+66 */
+background: #ff8b1e; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #ff8b1e 41%, #ff7c00 65%, #ff8514 66%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  #ff8b1e 41%,#ff7c00 65%,#ff8514 66%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  #ff8b1e 41%,#ff7c00 65%,#ff8514 66%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8b1e', endColorstr='#ff8514',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 cursor:pointer;
 padding: .5rem;
 border-radius: 10px;
 display: inline-block;
-font-size: 16px;
-box-shadow: 0 5px 10px -4px rgba(0, 0, 0,.7);
 }
 
 .card-body
 {
-  min-height: 170px;
+  min-height: 200px;
   font-family: 'Helvetica LT Std';
 }
 
@@ -193,11 +185,6 @@ box-shadow: 0 5px 10px -4px rgba(0, 0, 0,.7);
   font-weight: bold;
 }
 
-.card-body i{
-  margin: 0 1rem;
-}
-
-
 .honey_btn{
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f36e21+0,f8991d+99 */
 background: #f36e21; /* Old browsers */
@@ -207,7 +194,6 @@ background: linear-gradient(135deg,  #f36e21 0%,#f8991d 99%); /* W3C, IE10+, FF1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36e21', endColorstr='#f8991d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 border:none;
 border-radius: 10px;
-box-shadow: 0 5px 10px -8px rgba(0, 0, 0,.7);
 }
 
 .honey_btn:active{
@@ -366,8 +352,6 @@ background: #f5851f;
 {
 transition: transform .2s;
   border-radius: 0;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
-    margin: 0 3px;
 }
 .card:hover {
     -ms-transform: scale(1.09); /* IE 9 */
@@ -759,23 +743,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f68b1f', end
 }
 
 #book_btn{
-  background-color: #272729;
+  background-color: #38383a;
   font-weight: bold;
   color: #fa9f1b;
   padding: .5rem 1.5rem;
   border-radius: 10px;
   border: none;
   font-family: 'Helvetica LT Std';
-  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
 }
-
-
-#book_btn:hover{
-background-color:#404044;
-color: #FFC107;;
-transition: .5s;
-}
-
 
 .ctr_btn{
   margin: 0 auto;
@@ -826,27 +801,18 @@ transition: .5s;
   background-position:center;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 2rem 1rem;
-  color: #fff;
-  overflow: hidden;
+  padding: 2rem 0;
+  color: #414141;
 }
-
-.layer{
-  width: 100%;
-  padding: 5rem;
-  /*background-color: red;*/
-  position: absolute;
-}
-
 
 #book_btnred{
-    background-color: #ed1b24;
-    font-weight: bold;
-    color: #fff;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
-    display: inline-block;
+  background-color: #ed1b24;
+  font-weight: bold;
+  color: #fff;
+  padding: .5rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
 }
 
 .gallery-block{
@@ -876,8 +842,7 @@ color: #fff;
 
 .gallery-block.cards-gallery h6 {
   font-size: 17px;
-  font-weight: bold;
-  margin-bottom: 0 0;
+  font-weight: bold; 
 }
 
 .gallery-block.cards-gallery .card{
@@ -924,13 +889,14 @@ text-align: center;
   border: none;
   font-size: 16px;
   margin-top: 30px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
 }
 
 
 .card-body3{
+padding: .5rem;
 text-align: center;
 color: #fff;
+background-color: #000;
 }
 
 .place{
@@ -1001,17 +967,6 @@ font-size: 15px !important;;
   margin: 0 1rem;
 }
 
-.btm_social{
-      display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.btm_social li{
-  margin: 0 1rem;
-}
-
-
 .besttxt{
   font-family: 'Helvetica LT Std';
   font-weight: bold;
@@ -1039,167 +994,7 @@ font-size: 15px !important;;
   font-weight: bold;
 }
 
-.desc {
-  position:absolute; /* Important */
-  width:100%; /* Important */
-  bottom:0; /* Important */
-  left:0;
-  background-color:rgba(0, 0, 0, 0.73);
-  filter:alpha(opacity=50);
-}
-
-.desc .desctxt {
-  padding:5px;
-  text-align:left;
-
-}
-
-
-.desc .price{
-position: relative;
-    bottom: 20px;
-    background: -webkit-linear-gradient(#f68a1f, #febd11);
-    color: #000;
-    display: inline-block;
-    padding: 0.5rem;
-    border-radius: 8px;
-    font-size: 13px;
-  font-family: 'Helvetica LT Std';
-  font-weight: bold;
-  margin: 0;
- 
-}
-
-.desc h6{
-    font-size: 14px !important;
-    color: #fff;
-    position: relative;
-    bottom: 8px;
-}
-
-.desc .amend{
-  font-size: 12px;
-  color: #fff;
-   position: relative;
-    bottom: 12px;
-    margin: 0;
-}
-
-.desc1 {
-  position:absolute; /* Important */
-  width:100%; /* Important */
-  bottom:0; /* Important */
-  left:0;
-  background-color:rgba(0, 0, 0, 0.73);
-  filter:alpha(opacity=50);
-  padding: .6rem 0;
-}
-
-.desc1 .place {
-  padding:5px;
-  text-align:center;
-
-}
-
-.blk-bg{
-  background:rgb(41, 41, 41);
-  display:block;
-  position:fixed;
-  z-index:999;
-  width:100%;
-  height: 36px;
-  }
-.fixed-top{
-  top:33px!important;
-  }
-.top_strip{
-  padding:0 33px 0 0; margin:0;
-  }
-.top_strip li{
-  display:inline-block;
-  padding:6px 2px;
-  }
-.top_strip li i{
-  color:#fff;
-  margin: 0 5px;
-  }
-
-.clr{
-  clear:both;
-  }
-
-.cnt{
-  padding: 5px 0 0 0;
-      color: #fff;
-}
-
-.cnt:hover{
-  text-decoration: none;
-  color: #fff;
-}
-
-.cnt1{
-      padding: 0 19px 0 0;
-    color: #fff;
-    border-right: solid 1px #fff;
-}
-
-.cnt1:hover{
-   text-decoration: none;
-  color: #fff; 
-}
-
-
-.cnt_mob{
-  padding: 5px 0 0 0;
-      color: #fff;
-      display: none;
-      
-}
-
-.cnt_mob:hover{
-  text-decoration: none;
-  color: #fff;
-}
-
-.cnt1_mob{
-      padding: 0 19px 0 0;
-    color: #fff;
-    display: none;
-  
-}
-
-.cnt1_mob:hover{
-   text-decoration: none;
-  color: #fff; 
-}
-
-
-label{
-  font-family: 'Helvetica LT Std';
-  font-weight: bold;
-}
-
-
-.crd_ico{
-  margin: 1rem 0;
-}
-
-.crd_ico li{
-    display: inline;
-    float: left;
-    margin: 0 .3rem;
-    width: 40px;
-    height: 30px;
-    border-right: dotted 1px #000;
-}
-
-.crd_hght{
-  min-height: 300px!important;
-}
-
 @media (min-width: 576px) {
-
 
   .gallery-block .transform-on-hover:hover {
       transform: translateY(-10px) scale(1.02);
@@ -1207,66 +1002,8 @@ label{
   }
 }
 
-
-@media (max-width: 576px) {
-
-.top_strip li {
-    padding: 6px 0px !important;
-}
-
-
-.cnt_mob,.cnt1_mob{
-display: block;
-}
-
-.flickity-viewport{
-  height: 500px !important;
-}
-
-.btm_social{
-      display: grid;
-    grid-auto-flow: column;
-}
-
-.testimonial
-{
-  margin: 0;
-  padding: 1rem 0;
-}
-  .travel span{
-    font-size: 57px;
-  }
-
-.title1 h3{
-  font-size: 20px;
-}
-
-.drop h3{
-  font-size: 18px;
-}
-
-#book_btnred{
-  font-size: 14px;
-}
-
-.besttxt{
-  font-size: 25px;
-}
-
-.blk-bg{
-  padding: 0 !important;
-}
-
-}
-
-
 @media screen and (max-width:991px)
 {
-
-  .cnt1,.cnt{
-    display: none;
-
-  }
 	
 	.out{
 		background: #000;
@@ -1366,8 +1103,6 @@ display: block;
 .btm_nav{
   display: none;
 }
-
-
 
 }
 
