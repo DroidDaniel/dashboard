@@ -1470,6 +1470,11 @@ display: block;
   padding: 0 !important;
 }
 
+.testimonial-quote {
+    font-size: 18px;
+    padding: 2rem;
+}
+
 }
 
 
