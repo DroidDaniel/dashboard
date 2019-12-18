@@ -1261,7 +1261,7 @@ font-size: 15px !important;;
 }
 
 .desc .desctxt {
-  padding:5px;
+  padding:5px 15px;
   text-align:left;
 
 }
@@ -1712,11 +1712,6 @@ form input, form select{
 #r2 img
 {
   display: none;
-}
-
-.cr
-{
-  background:none;
 }
 
 #market img
