@@ -1045,7 +1045,7 @@ transition: .5s;
 
 .layer{
   width: 100%;
-  padding: 5rem;
+  padding: 2rem;
   background:rgba(0,0,0,0.7) ;
   /*position: absolute;*/
 }
