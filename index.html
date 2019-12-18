@@ -66,6 +66,7 @@
     </style>
   </head>
   <body>
+
    <div class="container-fluid blk-bg">
 
     <div class="row">
@@ -246,43 +247,47 @@ Tropical Islands of
 
 <!--book now-->
 
-<section class="booknow">
-  <div class="row book_center">
-    <div class="col-md-12">
-<form data-aos="fade-down" data-aos-duration="1500">
-  <div class="form-row">
-    <div class="col-md-3 mb-2">
-      <label>Your Name</label>
-      <input type="text" class="form-control" placeholder="Your Name">
-    </div>
-    <div class="col-md-3 mb-2">
-      <label>Phone</label>
-      <input type="text" class="form-control" placeholder="Phone">
-    </div>
-    <div class="col-md-3 mb-2">
-      <label>Your Email</label>
-      <input type="text" class="form-control" placeholder="Email">
-    </div>
-
-      <div class="form-group col-md-3">
-    <label for="exampleFormControlSelect1">Preferable Time To Call</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option>10:00 AM</option>
-      <option>10:00 AM</option>
-      <option>10:00 AM</option>
-      <option>10:00 AM</option>
-      <option>10:00 AM</option>
-    </select>
+ 
+<div class="wrapper_form">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+    <h1 class="text-center text-white">Book Now Your First Trip To Andaman</h1>
+    
+    <form class="form text-center" data-aos="fade-up" data-aos-duration="1500">
+      <input type="text" placeholder="Your Name">
+      <input type="number" placeholder="Phone">
+      <input type="text" placeholder="Email">
+      <!-- <input type="time" placeholder="Preferable Time To Call"> -->
+      <select class="text-center">
+            <option value="none">Preferable Time To Call</option>
+            <option value="09:00 - 12:00 AM">09:00 - 12:00 AM</option>
+            <option value="12:00 - 06:00 AM">12:00 - 06:00 AM</option>
+            </select>
+      <div>
+      <input type="submit" id="login-button" value="Book Now">
+      </div>
+    </form>
   </div>
-
-<div class="btn_line ctr_btn">
-  <button type="submit" class="btn btn-primary mb-2" id="book_btn">BOOK NOW</button>
+  
+  <ul class="bg-bubbles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
   </div>
   </div>
-</form>
 </div>
 </div>
-</section>
+</div>
+
 
  <!-- card Content -->
 <div class="title1">
@@ -367,13 +372,14 @@ AC Cruise | Baratang</p> -->
 <!--drop section-->
 
 <div class="drop">
-  <div class="layer"></div>
+  <div class="layer">
     <h3 data-aos="fade-up" data-aos-duration="1000">Need a more customized experience?
 We will make it happen.</h3>
     <p data-aos="fade-up" data-aos-duration="1000">Our customized holidays offer the perfect escape to unique destinations around the world along with
 exclusive experiences, designed as per your choice and planned at your pace!</p>
 <div class="ctr_btn">
   <button type="submit" class="btn btn-primary mb-2" id="book_btnred" data-aos="zoom-in" data-aos-duration="1500">Drop your requirement to customize</button>
+  </div>
   </div>
 </div>
 
@@ -615,12 +621,14 @@ TRIP 4 DAYS</h5>
 <!--drop1 section-->
 
 <div class="drop">
+	<div class="layer">
     <h3 data-aos="fade-up" data-aos-duration="1000">Looking for Car Rental Service in Andaman?
 We will make it happen.</h3>
     <p data-aos="fade-up" data-aos-duration="1000">We are the car rental service provider in Andamans. We provide car rental service in Hourly Basis,
 Tour Point Basis and Disposal Basis. Drop your requirement and get best quote from us.</p>
 <div class="ctr_btn">
   <button type="submit" class="btn btn-primary mb-2" id="book_btnred" data-aos="zoom-in" data-aos-duration="1500">Click here to book car rental</button>
+  </div>
   </div>
 </div>
 
@@ -934,6 +942,12 @@ admirable. Stay was pleasant. Great experience"</q>
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+/*      $("#login-button").click(function(event){
+     event.preventDefault();
+   
+   $('form').fadeOut(500);
+   $('.wrapper').addClass('form-success');
+});*/
   </script>
   </body>
 </html>
