@@ -1411,6 +1411,31 @@ label{
   min-height: 180px!important;
 }
 
+
+#thank_con{
+  position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .25s ease-in-out;
+}
+
+
+
+#thank_con h5{
+  text-align: center;
+  font-size: 1rem;
+  color: #003102;
+}
+
+.cardbox_sec,.hotels_sec,.cardpack_sec{
+  padding: 5rem 0;
+  background-color: #E6E7E8;
+}
+
+
+
+
 @media (min-width: 576px) {
 
 
