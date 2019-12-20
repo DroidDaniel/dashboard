@@ -1177,6 +1177,10 @@ font-size: 15px !important;;
   font-family: 'Helvetica LT Std';
 }
 
+.testimonial h3{
+  font-weight: bold;
+}
+
 .testimonial-avatar {
   width: 100px;
   border-radius: 50%;
@@ -1413,6 +1417,7 @@ label{
 
 
 #thank_con{
+  width: 100%;
   position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -1498,6 +1503,10 @@ display: block;
 .testimonial-quote {
     font-size: 18px;
     padding: 2rem;
+}
+
+#thank_con h5{
+  font-size: .8rem;
 }
 
 }

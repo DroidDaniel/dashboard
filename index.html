@@ -66,6 +66,8 @@
     </style>
   </head>
   <body>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"     
+onload="if(submitted) {window.location='index.html';}"></iframe>
 
    <div class="container-fluid blk-bg">
 
@@ -253,15 +255,18 @@ Tropical Islands of
     <div class="row">
       <div class="col-md-12">
     <h1 class="text-center text-white">Book Now Your First Trip To Andaman</h1>
-    
-    <form method="POST" name="contactform" class="form text-center" data-aos="fade-up" data-aos-duration="1500">
-      <input type="text" placeholder="Your Name" name="fname"  id="fname">
-      <input type="number" placeholder="Phone" id="number" name="number">
-      <input type="text" placeholder="Email" id="emailid"  name="emailid">
-      <select class="text-center"  name="location" id="location">
-            <option value="none">Preferable Time To Call</option>
-            <option value="09:00 - 12:00 AM">09:00 - 12:00 AM</option>
-            <option value="12:00 - 06:00 AM">12:00 - 06:00 AM</option>
+
+
+
+    <form method="POST" id="formsec" target="hidden_iframe" onsubmit="submitted=true;"  name="contactform" class="form text-center gform" data-aos="fade-up" data-aos-duration="1500" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScFeUUIl6z-XxjGn7XyDH0wUs-i0tvNu9orEkmW1-L1wK_hXQ/formResponse">
+
+      <input type="text" placeholder="Your Name" name="entry.296518835"  id="fname">
+      <input type="number" placeholder="Phone" id="number" name="entry.1068701435">
+      <input type="email" placeholder="Email" id="emailid"  name="entry.479446177">
+      <select class="text-center"  name="entry.1044219946" id="tocall">
+        <option value="" disabled selected>Preferable Time To Call</option>
+            <option name="entry.1044219946" value="09:00 to 06:00 AM">09:00 to 06:00 AM</option>
+            <option name="entry.1044219946" value="10:00 to 12:00 PM">10:00 to 12:00 PM</option>
             </select>
              <div id="errors"></div>
       <div>
@@ -810,6 +815,10 @@ Tour Point Basis and Disposal Basis. Drop your requirement and get best quote fr
 <!--feed back-->
 
 <div class="container testimonial">
+  <!--gallery1-->
+
+    <h3 data-aos="fade-down" data-aos-duration="1000">What Our Clients Says</h3>
+
 <div class="main-gallery">
   <div class="gallery-cell">
     <div class="testimonial">
