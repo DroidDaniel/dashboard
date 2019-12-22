@@ -17,6 +17,10 @@ html {
     margin: 35px 0;
 }
 
+.ylw_act{
+  color: #fff100 !important;
+}
+
 .wrapper_form {
   background: #50a3a2;
   background: linear-gradient(to bottom right, #FF8008 0%, #FFC837 100%);
@@ -25,7 +29,7 @@ html {
   padding: 2rem 0;
   position: relative;
 }
-.wrapper_form.form-success  {
+.wrapper_form .form-success  {
   -webkit-transform: translateY(85px);
           transform: translateY(85px);
 }
@@ -66,38 +70,20 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 
-form {
+.wrapper_form form {
   padding: 20px 0;
   position: relative;
   z-index: 2;
 }
-form input, form select {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  outline: 0;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  background-color: rgba(255, 255, 255, 0.2);
-  width: 250px;
-  border-radius: 3px;
-  padding: 10px 15px;
-  margin: 0 25px;
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  color: white;
-  transition-duration: 0.25s;
-  font-weight: 300;
-}
-form input:hover, form select:hover {
+.wrapper_form form input:hover, form select:hover {
   background-color: rgba(255, 255, 255, 0.4);
 }
-form input:focus, form select:focus {
+.wrapper_form form input:focus, form select:focus {
   background-color: white;
   width: 300px;
   color: #FF8008;
 }
-form #login-button {
+.wrapper_form form #login-button {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -114,7 +100,7 @@ form #login-button {
   margin-top: 20px;
   box-shadow: 0 5px 10px -4px rgba(0, 0, 0,.7);
 }
-form #login-button:hover {
+.wrapper_form form #login-button:hover {
   background-color: #f5f7f9;
 }
 
@@ -1425,8 +1411,6 @@ label{
     transition: all .25s ease-in-out;
 }
 
-
-
 #thank_con h5{
   text-align: center;
   font-size: 1rem;
@@ -1438,7 +1422,152 @@ label{
   background-color: #E6E7E8;
 }
 
+.contact_sec{
+  padding:5rem 0;
+}
 
+
+.contact_sec form{
+border: solid 1px #cccccc4f;
+    padding: 1rem;  
+}
+
+.contact_sec form input{
+  border:none;
+  border-bottom: solid 1px #FF9800;
+  border-radius: 0;
+}
+
+.contact_sec form textarea{
+  border:none;
+  border: solid 1px #FF9800;
+  border-radius: 0;
+}
+
+
+.contact_sec form input:focus{
+  outline: none;
+  border-bottom: solid 1px #FFC107;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.contact_sec form textarea:focus{
+  outline: none;
+  border: solid 1px #FFC107;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+#contact_btn{
+  background-color: #FF9800 !important;
+  padding: .3rem 1.5rem;
+  border: none;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#map{
+  width: 100%;
+}
+
+
+.c_heading{
+  text-align: center;
+  color: #383535;
+  padding-bottom: 1rem;
+}
+
+
+.welcome_sec{
+  padding: 5rem 0;
+  font-family: 'Helvetica LT Std';
+  background-color: #e9ecef;
+}
+
+.welcome_sec h2{
+  font-weight: bold;
+}
+
+
+.welcome_sec h3{
+  font-weight: lighter;
+}
+
+.welcome_sec p{
+  font-size: 15px;
+}
+
+.welcome_sec .gallery-block{
+  background: none;
+  padding: 0;
+}
+
+
+.welcome_sec .desc1{
+background-color: rgba(255, 152, 0, 0.75);
+}
+
+
+.quality_sec{
+  padding: 3rem 0;
+  font-size: 15px;
+}
+
+
+.why_sec{
+  padding: 3rem 0;
+  color: #fff;
+  background-color: #f36e21;
+  font-family: 'Helvetica LT Std';
+}
+
+
+.why_sec p{
+  font-size: 15px;
+  line-height: 1.5rem;
+    text-align: justify;
+  text-justify: inter-word;
+
+}
+
+
+.why_sec h3{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.why_btm p{
+ font-size: 15px;
+  line-height: 1.5rem;
+    text-align: justify;
+  text-justify: inter-word; 
+}
+
+.cruisecard_sec .title1 p{
+  font-family: 'Helvetica LT Std';
+  padding: .5rem  4rem;
+  font-size: 15px;
+}
+
+
+.cruisecard_sec .card-body2{
+  min-height: 650px;
+  text-align: justify;
+  padding: 1rem 2rem;
+}
+
+
+.cruisecard_sec .card-img-top{
+  padding: .6rem;
+}
+
+.center_crd{
+  padding: 2rem 10rem;
+}
 
 
 @media (min-width: 576px) {
@@ -1507,6 +1636,38 @@ display: block;
 
 #thank_con h5{
   font-size: .8rem;
+}
+
+.welcome_sec{
+  padding: 2rem 0;
+}
+
+
+.welcome_sec h2{
+  font-size: 1.5rem;
+  padding: 0 .5rem;
+}
+
+.welcome_sec h3,.why_sec h3{
+  font-size: 1.2rem;
+  padding: 0 .5rem;
+}
+
+.welcome_sec p,.quality_sec p,.why_sec p,.why_btm p{
+  font-size: .8rem;
+  line-height: 1.2rem;
+    text-align: justify;
+  text-justify: inter-word;
+  padding: 0 .5rem;
+}
+
+.quality_sec{
+  padding: 2rem 0;
+}
+
+.cruisecard_sec .title1 p{
+  padding: .8rem;
+  font-size: 12px;
 }
 
 }
@@ -1658,6 +1819,10 @@ footer
   font-size: 14px;
   }
 	
+  .center_crd{
+    padding: 0;
+  }
+  
 .bg-bubbles li:nth-child(5) {
   left: 25%;
 }
