@@ -100,15 +100,14 @@ onload="if(submitted) {window.location='index.html';}"></iframe>
 
         <div class="col-md-6" style="color:#fff;">
 
-          <ul class="top_strip pull-right">
+                    <ul class="top_strip pull-right">
             <li>
-            <a href="#" target="_blank" class="cnt1"><i class="fa fa-envelope-o" aria-hidden="true"></i>  info@andamantourtravel.com </a>
+            <a href="mailto:eliteandamans@gmail.com" target="_blank" class="cnt1"><i class="fa fa-envelope-o" aria-hidden="true"></i>eliteandamans@gmail.com</a>
             </li>
             <li>
-             <a class="cnt" href="tel:+918086448822"> <i class="fa fa-phone" aria-hidden="true"></i>  +91 8086448822</a>
+             <a class="cnt" href="tel:+91 9679574390"> <i class="fa fa-phone" aria-hidden="true"></i>  +91 9679574390</a>
             </li>
           </ul>
-
         </div>
 
 
@@ -132,8 +131,7 @@ onload="if(submitted) {window.location='index.html';}"></iframe>
       <div class="container-fluid">
 
         <a class="navbar-brand" href="index.html">
-          <!-- <img src="images/logo_ft.png" alt="logo" class="symbol" style="visibility: hidden;"> -->
-          <span>ANDAMAN TOURISM</span>
+          <img src="images/logo.png" alt="logo" class="symbol">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <!--<span class="navbar-toggler-icon"></span>-->
@@ -255,7 +253,8 @@ Tropical Islands of
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-  <form method="POST" id="touchformsec" name="touchform" class="cont_form" data-aos="fade-up" data-aos-duration="1500">
+  <form method="POST" id="touchformsec" name="touchform" class="cont_form" data-aos="fade-up" data-aos-duration="1500" 
+  action="https://formspree.io/osthydesouza@gmail.com">
 
       <div class="form-group">
         <div class="input-placeholder">
@@ -279,6 +278,9 @@ Tropical Islands of
   <input type="button" class="btn btn-primary" id="contact_btn" value="Send">
   <div id="errors"></div>
 </form>
+
+<div id="thank_con"></div>
+
 </div>
 
 <div class="col-md-6">
@@ -452,7 +454,7 @@ var error_count = 0;
   }
 
   if(error_count == 0){
-    //document.getElementById("touchformsec").submit();
+    document.getElementById("touchformsec").submit();
     document.getElementById("touchformsec").reset();
      document.getElementById("thank_con").style.opacity = "1";
      document.getElementById('thank_con').innerHTML = "<h5>Thank you We will get back to you shortly.</h5>";
