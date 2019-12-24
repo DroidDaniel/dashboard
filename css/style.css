@@ -1587,6 +1587,7 @@ background-color: rgba(255, 152, 0, 0.75);
 .packlist{
   background-color: #ccc;
   padding: 3rem 0;
+  overflow: hidden;
 }
 
 .pact-txt{
@@ -1631,6 +1632,8 @@ background-color: rgba(255, 152, 0, 0.75);
 
 .faci h6{
   margin-top: .8rem;
+  font-size: 1rem;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -1667,6 +1670,7 @@ background-color: rgba(255, 152, 0, 0.75);
 
 .act_sec{
   background: #ccc;
+  overflow: hidden;
 }
 
 .rate-block p:nth-child(1),.rate-block p:nth-child(2) {
