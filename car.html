@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.10.1/css/mdb.min.css" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -83,6 +82,7 @@ form input, form select {
   font-weight: 300;
 }
 
+
     </style>
   </head>
   <body>
@@ -119,7 +119,7 @@ onload="if(submitted) {window.location='index.html';}"></iframe>
 
         <div class="col-md-6" style="color:#fff;">
 
-                    <ul class="top_strip pull-right">
+          <ul class="top_strip pull-right">
             <li>
             <a href="mailto:eliteandamans@gmail.com" target="_top" class="cnt1"><i class="fa fa-envelope-o" aria-hidden="true"></i>eliteandamans@gmail.com</a>
             </li>
@@ -127,6 +127,7 @@ onload="if(submitted) {window.location='index.html';}"></iframe>
              <a class="cnt" href="tel:+91 9679574390"> <i class="fa fa-phone" aria-hidden="true"></i>  +91 9679574390</a>
             </li>
           </ul>
+
         </div>
 
 
@@ -150,7 +151,7 @@ onload="if(submitted) {window.location='index.html';}"></iframe>
       <div class="container-fluid">
 
         <a class="navbar-brand" href="index.html">
-          <img src="images/logo.png" alt="logo" class="symbol">
+        <img src="images/logo.png" alt="logo" class="symbol">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <!--<span class="navbar-toggler-icon"></span>-->
@@ -161,7 +162,7 @@ onload="if(submitted) {window.location='index.html';}"></iframe>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="index.html" text-dark>Home
-               
+                
               </a>
             </li>
             <li class="nav-item">
@@ -171,13 +172,13 @@ onload="if(submitted) {window.location='index.html';}"></iframe>
               <a class="nav-link" href="tour.html">Tour</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ylw_act" href="cruise.html">Cruise Vacation </a>
+              <a class="nav-link" href="cruise.html">Cruise Vacation </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="hotel.html">Hotels</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="car.html">Car Rental</a>
+              <a class="nav-link ylw_act" href="car.html">Car Rental</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="activities.html">Activities</a>
@@ -216,7 +217,7 @@ onload="if(submitted) {window.location='index.html';}"></iframe>
   <a href="#cardsec"><span></span></a>
 </section> -->
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active cw" style="background-image: url('images/cruise.jpg')">
+          <div class="carousel-item active cw" style="background-image: url('images/lady.jpg')">
             <div class="carousel-caption travel" data-aos="fade-right" data-aos-easing="linear"
      data-aos-duration="500">
               <h1>Welcome to
@@ -226,7 +227,7 @@ Tropical Islands of
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item cw" style="background-image: url('images/cruise.jpg')">
+          <div class="carousel-item cw" style="background-image: url('images/lady.jpg')">
             <div class="carousel-caption travel">
               <h1>Welcome to
 Tropical Islands of
@@ -234,7 +235,7 @@ Tropical Islands of
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item cw" style="background-image: url('images/cruise.jpg')">
+          <div class="carousel-item cw" style="background-image: url('images/lady.jpg')">
             <div class="carousel-caption travel">
               <h1>Welcome to
 Tropical Islands of
@@ -242,7 +243,7 @@ Tropical Islands of
             </div>
           </div>
           <!-- Slide four - Set the background image for this slide in the line below -->
-      <div class="carousel-item cw" style="background-image: url('images/cruise.jpg')">
+      <div class="carousel-item cw" style="background-image: url('images/lady.jpg')">
             <div class="carousel-caption travel">
                          <h1>Welcome to
 Tropical Islands of
@@ -265,8 +266,6 @@ Tropical Islands of
 </div>
 </div>
 
-
-
 <!--book now-->
 
  
@@ -274,21 +273,27 @@ Tropical Islands of
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 demo">
-    <h1 class="text-center text-white">Book Now Your First Trip To Andaman</h1>
+    <h1 class="text-center text-white">Book Now Car</h1>
+    <form method="POST" id="formsec" target="hidden_iframe" onsubmit="submitted=true;"  name="contactform" class="form text-center gform" data-aos="fade-up" data-aos-duration="1500" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd7TQu6Mnyplbx39NjiDsBwgd-B8M4FNxkO0BH_FZAgkk5VTg/formResponse">
+      <div>
+      <input type="text" placeholder="Your Name" name="entry.572426549"  id="fname">
+      <input type="email" placeholder="Email" id="emailid"  name="entry.1779014380">
+      <input type="number" placeholder="Phone" id="number" name="entry.673680672">
+      </div>
+      <div>
+      <input type="date" placeholder="Pickup Date(dd/mm/yy)" name="entry.1853790969"  id="date">
+      <input type="type" placeholder="Pickup Points" id="pick"  name="entry.137962417">
+      <input type="type" placeholder="Mention The Hotel Name" id="hotel" name="entry.1462446429">
+      </div>
+      <div>
+      <input type="number" placeholder="No.of Person" name="entry.1507584822"  id="person">
+      <input type="number" placeholder="No.of Car Required" id="car_no"  name="entry.1457642393">
+      <input type="number" placeholder="No.of Cargo car Required" id="cargo" name="entry.667573738">
+      </div>
+      
+      <div id="errors"></div>
 
 
-
-    <form method="POST" id="formsec" target="hidden_iframe" onsubmit="submitted=true;"  name="contactform" class="form text-center gform" data-aos="fade-up" data-aos-duration="1500" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScFeUUIl6z-XxjGn7XyDH0wUs-i0tvNu9orEkmW1-L1wK_hXQ/formResponse">
-
-      <input type="text" placeholder="Your Name" name="entry.296518835"  id="fname">
-      <input type="number" placeholder="Phone" id="number" name="entry.1068701435">
-      <input type="email" placeholder="Email" id="emailid"  name="entry.479446177">
-      <select class="text-center"  name="entry.1044219946" id="tocall">
-        <option value="" disabled selected>Preferable Time To Call</option>
-            <option name="entry.1044219946" value="09:00 to 06:00 AM">09:00 to 06:00 AM</option>
-            <option name="entry.1044219946" value="10:00 to 12:00 PM">10:00 to 12:00 PM</option>
-            </select>
-             <div id="errors"></div>
       <div>
       <input type="button" id="login-button" value="Book Now">
       </div>
@@ -315,107 +320,78 @@ Tropical Islands of
 </div>
 
 
-
-<!-- card Content 2-->
-<section class="cruisecard_sec">
-
-<div class="title1">
-    <h3 data-aos="fade-up" data-aos-duration="1000">CRUISE BOOKINGS</h3>
-    <p data-aos="fade-up" data-aos-duration="1000">Cruise booking has to be booked in advanced because when the season starts the maximum travelers tickets has to be booked & it’s a online booking. So hurry up for booking any time. We book only cruse tickets for havelock & neil (makrzz & green ocean) at the same time if theirs unavailability of cruise tickets we book through govt ferry.</p>
-</div>
-
-<div class="container-fluid p-md-5 cr py-4" id="cardsec">
-<div class="row">
-<div class="col-sm-12">
-<div class="container">
-<div class="row">
-
-
-
-<div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out-cubic">
-<div class="card border-0">
-  <img class="card-img-top" src="images/ship1.jpg" alt="Card image cap">
-  <div class="card-body2">
-    <h5>GREEN OCEAN 2</h5>
-    <p>green ocean 2 is high speed monohull vessel with mordern design and aesthetics for speed , agility and comfort. The vessel has a plush interiors and seating with large legroom. the vessel has a capacity of 198 seats divided between upper deck-royal class and lower deck-deluxe and luxury class the lower deck. the lower deck also hosts a modern cafeteria with hot and cold beverages. the entire vessel is wired for a better music and PA system. Also there are televisions placed on all decks for passengers to view media content.</p>
-<p>The ship sails for portblair-havelock-neil trips, starting from Phoenix bay jetty daily and usually takes about 2hrs and 15 min for a one way journey between the destinations
-</p>
+<section class="car_sec">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <img src="car_images/car1.jpg" class="img-fluid" alt="Responsive image">
+        <h3>DZIRE</h3>
+      </div>
+      <div class="col-md-5">
+        <img src="car_images/car2.jpg" class="img-fluid" alt="Responsive image">
+        <h3>SCORPIO</h3>
+      </div>
+      <div class="col-md-1"></div>    
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <img src="car_images/car3.jpg" class="img-fluid" alt="Responsive image">
+        <h3>TAVERA</h3>
+      </div>
+      <div class="col-md-5">
+        <img src="car_images/car4.jpg" class="img-fluid" alt="Responsive image">
+        <h3>TRAVELLER 17</h3>
+      </div>
+      <div class="col-md-1"></div>     
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <img src="car_images/car5.jpg" class="img-fluid" alt="Responsive image">
+        <h3>ERTIGA</h3>
+      </div>
+      <div class="col-md-5">
+        <img src="car_images/car6.jpg" class="img-fluid" alt="Responsive image">
+        <h3>XYLO</h3>
+      </div>
+      <div class="col-md-1"></div>    
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5">
+        <img src="car_images/car7.jpg" class="img-fluid" alt="Responsive image">
+        <h3>WINGER</h3>
+      </div>
+      <div class="col-md-5">
+        <img src="car_images/car8.jpg" class="img-fluid" alt="Responsive image">
+        <h3>TRAVELLER 26</h3>
+      </div>
+      <div class="col-md-1"></div>    
+    </div>
   </div>
-</div>
-</div>
 
-
-<div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out-cubic">
-<div class="card border-0">
-  <img class="card-img-top" src="images/ship2.jpg" alt="Card image cap">
-  <div class="card-body2">
-    <h5>MAKRUZZ</h5>
-    <p>Makruzz is a private cruise operated by Private Company it’s  a   CATAMARAN  RIDE  which will be a Joy ride at Andaman from Port Blair to Havelock & Neil to port Blair which is not more than a hour and a half journey. Do bring your ID Proof during Check in On Board.  It has three class Premium, Deluxe & Royal. The Process is similar just like a Check in at Airport with baggage screening etc. The boat is well designed & the interior is just awesome.The Cruise is fully Air Conditioned. It’s a private ferry service, it’s a bit costly but it’s a value of money. You can enjoy the sea view. It has a small Onboard Cafeteria for refreshment facility and  Tv for enjoyment.  It’s a clean and a A Wonderful Cruise for Havelock & Neil.. It’s the fastest, safest and comfortable way to move around from one island to another in Andaman Islands. It takes 2 hours to reach from one Island to another.
-</p>
-  </div>
-</div>
-</div>
-
-
-<div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out-cubic">
-<div class="card border-0">
-  <img class="card-img-top" src="images/ship3.jpg" alt="Card image cap" class="border-0">
-  <div class="card-body2">
-    <h5>GREEN OCEAN 1</h5>
-    <p>There’s no other cruise than Green ocean with an open air cafeteria on board. The vessel which can be operated between Port Blair and Havelock on all weather either on a rough sea. It has a open deck facility so that you can get a open air  & you wont have rolling pitching. It is designed with a comfortable space and seating for travelers to move outside and move freely for catching some air. It has an awesome food style. The food which are available in the cafeteria are like the various packaged foods, beverages & other delicious food . Green ocean provides Multimedia System on the boat which is a kind of entertainment for the traveler . It’s a Air Condition Cruise.</p>
-  </div>
-</div>
-</div>
-
-</div>
-
-
-<div class="center_crd">
-<div class="row">
-<div class="col-sm-12 p-0">
-<div class="container">
-<div class="row">
-
-<div class="col-md-6 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out-cubic">
-<div class="card border-0">
-  <img class="card-img-top" src="images/ship4.jpg" alt="Card image cap">
-  <div class="card-body2">
-    <h5>ITT MAJESTIC</h5>
-<p>I T T Majestic a high speed passenger craft is owned by I T T Lines (P) Ltd. It is a member of I T T Group which is actively involved in cargo vessels operation, chartering, shipping agency, custom- house brokers etc. The company is also involved in travel and tourism sector and own and operate hotel. I T T Group having a fleet of eight vessels and has been offering services for carriage of cargo across the country for the last several years. The aim of I T T Majestic is to offer quality passenger services together with luxury and comfort in Andaman & Nicobar Islands, India. The I T T Majestic was designed by the Australian Naval Architect and Engineering Company Incat Crowthers and built by Indonesian Company in 2016. The craft is 33 Mtrs length having 200 seats of different categories. The craft is spread over a single deck I is fully air-conditioned and comfortable seats. …</p>
-
-  </div>
-</div>
-</div>
-
-
-<div class="col-md-6 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500" data-aos-easing="ease-out-cubic">
-<div class="card border-0">
-  <img class="card-img-top" src="images/ship5.jpg" alt="Card image cap">
-  <div class="card-body2">
-    <h5>SEA LINK</h5>
-<p>Sea Link Cruise presents outstanding amenities and features for the comfort of the travellers. We attend to every tourist with extreme sincerity. Amenities such as a remarkable Sealink Cafe-dKiosk facility, various entertainment options, and luxurious interiors have set us apart from the rest.
-Our expert and trained crew members are competent in taking care of all your needs with efficiency. They prioritise the welfare and contentment of the travellers for the most delightful journey. Choose us for a smooth sailing experience amongst the turquoise water of Andaman!</p>
-  </div>
-</div>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-</div>
 </section>
 
 
+<section class="price_sec">
+  <div class="container">
+    <div class="row">
+      <div class="container">
+        <div class="col-md-12">
+        <img src="car_images/rental.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
     <!----------- Footer ------------>
-	  
-
+    
 <script type="text/javascript">function add_chatinline(){var hccid=25327206;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
 add_chatinline(); </script>
-
 
     <footer class="footer-bs rounded-0">	  
     <div class="container">  
@@ -510,7 +486,6 @@ add_chatinline(); </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="js/scrollnav.js"></script>
-
 <!-- <script src="js/validation.js"></script> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
@@ -534,18 +509,58 @@ add_chatinline(); </script>
   var fname = document.getElementById('fname');
 var emailid = document.getElementById('emailid');
 var number = document.getElementById('number');
-var call = document.getElementById('tocall');
+var date = document.getElementById('date');
+var pick = document.getElementById('pick');
+var hotel = document.getElementById('hotel');
+var person = document.getElementById('person');
+var car_no = document.getElementById('car_no');
+var cargo = document.getElementById('cargo');
 
 function checkErrors(){
 var error_count = 0;
 
-if(call.selectedIndex==0){
-  document.getElementById('tocall').style.borderColor = "red";
+ if(date.value == ""){
+  document.getElementById('date').style.borderColor = "red";
   error_count++;
   }else{
-  document.getElementById('tocall').style.borderColor = "transparent";
+  document.getElementById('date').style.borderColor = "transparent";
   }
 
+   if(car_no.value == ""){
+  document.getElementById('car_no').style.borderColor = "red";
+  error_count++;
+  }else{
+  document.getElementById('car_no').style.borderColor = "transparent";
+  }
+
+  if(cargo.value == ""){
+  document.getElementById('cargo').style.borderColor = "red";
+  error_count++;
+  }else{
+  document.getElementById('cargo').style.borderColor = "transparent";
+  }
+
+  if(person.value == ""){
+  document.getElementById('person').style.borderColor = "red";
+  error_count++;
+  }else{
+  document.getElementById('person').style.borderColor = "transparent";
+  }
+
+   if(hotel.value == ""){
+  document.getElementById('hotel').style.borderColor = "red";
+  error_count++;
+  }else{
+  document.getElementById('hotel').style.borderColor = "transparent";
+  }
+
+
+  if(pick.value == ""){
+  document.getElementById('pick').style.borderColor = "red";
+  error_count++;
+  }else{
+  document.getElementById('pick').style.borderColor = "transparent";
+  }
 
   if(fname.value == ""){
   document.getElementById('fname').style.borderColor = "red";
