@@ -1682,6 +1682,20 @@ background-color: rgba(255, 152, 0, 0.75);
   background-color: #dddddd;
 }
 
+
+.car_sec{
+  background-color: #ccc;
+  padding: 3rem 0; 
+}
+
+.car_sec h3{
+    text-align: center;
+    background: #FF5722;
+    color: #fff;
+    padding: .5rem 0;
+    }
+
+
 @media (min-width: 576px) {
 
 
