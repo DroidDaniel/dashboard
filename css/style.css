@@ -1634,6 +1634,10 @@ background-color: rgba(255, 152, 0, 0.75);
   overflow: hidden;
 }
 
+.honey_packlist{
+  overflow: hidden;
+}
+
 .pact-txt{
   font-size: 14px;
   margin-bottom: 2rem;
