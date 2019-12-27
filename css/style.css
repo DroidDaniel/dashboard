@@ -11,6 +11,50 @@ html {
   scroll-behavior: smooth;
 }
 
+.dropdown{
+position: relative;
+}
+
+.dropdown_cnt{
+  font-size: 13px;
+  width: 150px;
+  background-color: #fff;
+  border: solid 1px #f5851f;
+  border-radius: 3px;
+  padding:  0;
+  position: absolute;
+  display: none;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12); 
+}
+
+.dropdown_ico{
+  position: absolute;
+  bottom: 9px;
+  right: 10px;
+} 
+
+.dropdown_cnt a{
+  font-family: 'Helvetica LT Std' !important;
+  color: #f5851f !important;
+}
+
+.dropdown_cnt a:nth-child(2){
+margin-top: .3rem;
+}
+
+.dropdown_cnt a:hover{
+  color: #000 !important;
+background-color: #f5851f;
+transition: .8s;
+}
+
+.dropdown:hover .dropdown_cnt {
+  display: block;
+}
+
+/**drop**/
+
 .navbar{
       -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
@@ -544,18 +588,18 @@ background: #f5851f;
     left: auto;
 }
 
-.carousel-control-prev-icon
+/* .carousel-control-prev-icon
 {
   background-image: url('../images/prev.png');
   width: 9px;
-}
+} */
 
 
-.carousel-control-next-icon
+/* .carousel-control-next-icon
 {
   background-image: url('../images/next.png');
   width: 9px;
-}
+} */
 
 
 
@@ -1695,6 +1739,34 @@ background-color: rgba(255, 152, 0, 0.75);
     padding: .5rem 0;
     }
 
+.rooms{
+  padding: 3rem 0;
+}
+
+
+.room_slide span{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.hotel_name{
+  margin-bottom: .5rem;
+}
+
+
+.room_slide .carousel-control-prev-icon
+{
+  background-image: url('../hotel_images/prev.png');
+  
+}
+
+
+.room_slide .carousel-control-next-icon
+{
+  background-image: url('../hotel_images/next.png');
+  
+}
+
 
 @media (min-width: 576px) {
 
@@ -1936,6 +2008,16 @@ display: block;
 footer
 {
      background:url(../images/footer.jpg) top center no-repeat;
+}
+
+}
+
+
+@media only screen and (max-width : 991px) {
+
+.dropdown_cnt{
+  position: relative;
+    margin: 0 auto;
 }
 
 }
