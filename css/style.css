@@ -1878,6 +1878,7 @@ background-color: #FF9800;
     border-bottom: 4px solid !important;
     font-size: 18px;
     font-weight: bold;
+    background-color: #FF5722;
 }
 #tabs .nav-tabs .nav-link {
     border: 1px solid transparent;
@@ -1885,6 +1886,14 @@ background-color: #FF9800;
     border-top-right-radius: .25rem;
     color: #eee;
     font-size: 18px;
+}
+
+#tabs .nav-tabs .nav-link:focus{
+  background-color: #FF5722;
+}
+
+#tabs .nav-tabs .nav-link:hover{
+  background-color: #FF5722;
 }
 
 
