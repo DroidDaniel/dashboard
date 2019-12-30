@@ -1866,6 +1866,7 @@ background-color: #FF9800;
   background: #ee961b;
   font-family: 'Helvetica LT Std';
     color: #eee;
+    min-height: 360px;
 }
 #tabs h6.section-title{
     color: #eee;
@@ -1921,6 +1922,11 @@ background-color: #FF9800;
   line-height: 200px;
   font-size: 80px;
   color: white;
+}
+
+
+.flick-carousel{
+  height: 200px;
 }
 
 
