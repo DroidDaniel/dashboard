@@ -453,6 +453,71 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#067f49', end
   border: none;
 }
 
+.carousel-multi-item .controls-top{
+  text-align: center;
+      margin-bottom: 1.88rem;
+}
+
+.carousel-multi-item .controls-top .btn-floating {
+    background: #f47720;
+        color: #fff;
+    line-height: 47px;
+}
+
+.btn-floating {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    width: 47px;
+    height: 47px;
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+.btn-floating:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+
+.maylike .card:hover{
+  transform: none;
+}
+
+.maylike .card-title1{
+  font-size: 16px;
+}
+
+.maylike{
+  margin: 3rem 0 0 0;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a.waves-effect, a.waves-light {
+    display: inline-block;
+}
+
+
 .card a{
   text-decoration: none;
   color: #000;
@@ -766,7 +831,9 @@ text-align:center;
   font-size: 28px;
 }
 
-
+.btm_social li{
+  list-style-type: none;
+}
 
 .footer-bs {
 font-family: 'Helvetica LT Std';
@@ -1943,6 +2010,10 @@ background-color: #FF9800;
 
 .enquiry #tour_btn{
   margin: 0;
+}
+
+#multi-item-example{
+  height: 580px;
 }
 
 @media (min-width: 576px) {
