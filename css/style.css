@@ -2026,7 +2026,6 @@ background-color: #FF9800;
 
 
 @media (max-width: 576px) {
-
   .dropdown_cnt{
     font-size: 12px;
   width: 140px;
@@ -2036,6 +2035,19 @@ background-color: #FF9800;
   border: none;
 }
 
+
+.carousel-multi-item .controls-top .btn-floating{
+  line-height: 32px;
+}
+
+.carousel-multi-item .controls-top{
+  margin-bottom: .2rem; 
+}
+
+.btn-floating{
+  width: 32px;
+  height: 32px;
+}
 
 .dropdown_cnt .nav-link{
   padding: 0;
