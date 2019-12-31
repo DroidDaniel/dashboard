@@ -15,6 +15,9 @@
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Andaman Tour Travel</title>
     <style type="text/css">
+      *{
+        list-style-type: none;
+      }
       @font-face {
     font-family: 'Helvetica LT Std';
     src: url('fonts/HelveticaLTStd-Roman.eot');
@@ -81,6 +84,7 @@ form input, form select {
   transition-duration: 0.25s;
   font-weight: 300;
 }
+
 
 
     </style>
@@ -169,6 +173,8 @@ onload="if(submitted) {window.location='index.html';}"></iframe>
               <div class="dropdown_cnt">
                 <a class="nav-link dropdown" href="honeymoon.html">Andaman Honeymoon Package</a>
                 <a class="nav-link dropdown" href="tour.html">Andaman Tour Package</a>
+                <a class="nav-link dropdown" href="tour.html">Andaman International Package</a>
+                <a class="nav-link dropdown" href="tour.html">Andaman Domestic Package</a>
               </div>
             </li>
             <li class="nav-item">
@@ -331,16 +337,16 @@ Tropical Islands of
 
 <div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500">
 <div class="card border-0">
-  <a href="baratang.html" target="_blank">
+  <a href="tour.html" target="_blank">
   <img class="card-img-top" src="images/card1.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Starts from
+    <h5 class="carhref="tour.html" target="_blank">Starts from
 INR 6,500</h5>
     <h6>ANDAMAN BUDGET PACKAGE</h6>
         <ul class="crd_ico">
-      <li><img src="icons/bed.png" alt="ico" width="28"></li>
-      <li><img src="icons/car.png" alt="ico" width="28"></li>
-      <li><img src="icons/boatticket.png" alt="ico" width="28"></li>
+      <li><img src="icons/bed.png" alt="ico" width="20"></li>
+      <li><img src="icons/car.png" alt="ico" width="20"></li>
+      <li><img src="icons/boatticket.png" alt="ico" width="20"></li>
     </ul>
 <!-- <p class="card-text"><i class="fa fa-bed" aria-hidden="true"></i> | <i class="fa fa-car" aria-hidden="true"></i> | <i class="fa fa-ticket" aria-hidden="true"></i></p> -->
   </div>
@@ -351,42 +357,46 @@ INR 6,500</h5>
 
 <div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500">
 <div class="card border-0">
+  <a href="tour.html" target="_blank">
   <img class="card-img-top" src="images/card2.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Starts from
+    <h5 class="carhref="tour.html" target="_blank">Starts from
 INR 30,000</h5>
     <h6>ROMANTIC HONEYMOON TRIP</h6>
     <ul class="crd_ico">
-      <li><img src="icons/twostar.png" alt="ico" width="28"></li>
-      <li><img src="icons/car.png" alt="ico" width="28"></li>
-      <li><img src="icons/cruise.png" alt="ico" width="28"></li>
-      <li><img src="icons/scuba.png" alt="ico" width="28"></li>
-      <li><img src="icons/ticket.png" alt="ico" width="28"></li>
+      <li><img src="icons/twostar.png" alt="ico" width="20"></li>
+      <li><img src="icons/car.png" alt="ico" width="20"></li>
+      <li><img src="icons/cruise.png" alt="ico" width="20"></li>
+      <li><img src="icons/scuba.png" alt="ico" width="20"></li>
+      <li><img src="icons/ticket.png" alt="ico" width="20"></li>
     </ul>
 <!-- <p class="card-text">2* | Vechicle | Cruise | Sightseeing
 Scuba | Entry Tickets</p> -->
   </div>
+</a>
 </div>
 </div>
 
 
 <div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500">
 <div class="card border-0">
+  <a href="tour.html" target="_blank">
   <img class="card-img-top" src="images/card3.jpg" alt="Card image cap" class="border-0">
   <div class="card-body">
     <h5 class="card-title">INR 15,900
 P.P-Min 3 Pax</h5>
 <h6>PEACEFULL FAMILY TRIP</h6>
     <ul class="crd_ico">
-      <li><img src="icons/threestar.png" alt="ico" width="28"></li>
-      <li><img src="icons/accar.png" alt="ico" width="28"></li>
-      <li><img src="icons/sightscene.png" alt="ico" width="28"></li>
-      <li><img src="icons/cruise.png" alt="ico" width="28"></li>
-      <li><img src="icons/paratang.png" alt="ico" width="28"></li>
+      <li><img src="icons/threestar.png" alt="ico" width="20"></li>
+      <li><img src="icons/accar.png" alt="ico" width="20"></li>
+      <li><img src="icons/sightscene.png" alt="ico" width="20"></li>
+      <li><img src="icons/cruise.png" alt="ico" width="20"></li>
+      <li><img src="icons/paratang.png" alt="ico" width="20"></li>
     </ul>
 <!--     <p class="card-text">3* | AC Vechicle | Sightseeing |
 AC Cruise | Baratang</p> -->
   </div>
+</a>
 </div>
 </div>
 
@@ -408,9 +418,7 @@ We will make it happen.</h3>
     <p data-aos="fade-up" data-aos-duration="1000">Our customized holidays offer the perfect escape to unique destinations around the world along with
 exclusive experiences, designed as per your choice and planned at your pace!</p>
 <div class="ctr_btn">
-  <a href="contact.html" target="_blank">
-  <button type="submit" class="btn btn-primary mb-2" id="book_btnred" data-aos="zoom-in" data-aos-duration="1500">Drop your requirement to customize</button>
-  </a>
+  <div class="btn btn-primary mb-2" id="book_btnred" data-aos="zoom-in" data-aos-duration="1500" data-toggle="modal" data-target="#exampleModal">Drop your requirement to customize</div>
   </div>
   </div>
 </div>
@@ -437,6 +445,7 @@ exclusive experiences, designed as per your choice and planned at your pace!</p>
 
 <div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500">
 <div class="card border-0">
+  <a href="honeymoon.html" target="_blank">
   <img class="card-img-top" src="images/card4.jpg" alt="Card image cap">
   <div class="card-body crd_hght">
     <h5 class="card-title1">ANDAMAN HONEYMOON
@@ -446,20 +455,22 @@ TRIP 4 DAYS</h5>
 01 Out Door Photo shoot.</p>
 
     <ul class="crd_ico">
-      <li><img src="icons/threestar.png" alt="ico" width="28"></li>
-      <li><img src="icons/breakfast.png" alt="ico" width="28"></li>
-      <li><img src="icons/sightscene.png" alt="ico" width="28"></li>
+      <li><img src="icons/threestar.png" alt="ico" width="20"></li>
+      <li><img src="icons/breakfast.png" alt="ico" width="20"></li>
+      <li><img src="icons/sightscene.png" alt="ico" width="20"></li>
     </ul>
 
 <!-- <p>3* | Transfer | Breakfast | Sightseeing</p> -->
    <button type="submit" class="btn btn-primary m-0" id="book_btnylw">View Detail</button>
   </div>
+  </a>
 </div>
 </div>
 
 
 <div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500">
 <div class="card border-0">
+  <a href="honeymoon.html" target="_blank">
   <img class="card-img-top" src="images/card5.jpg" alt="Card image cap">
   <div class="card-body crd_hght">
     <h5 class="card-title1">ENTHRALLING ANDAMAN
@@ -467,9 +478,9 @@ TRIP 4 DAYS</h5>
     <p class="card-text">Complimentary: Juice Pack +
 01 Photo Shoot + Honeymoon Cake</p>
     <ul class="crd_ico">
-      <li><img src="icons/threestar.png" alt="ico" width="28"></li>
-      <li><img src="icons/breakfast.png" alt="ico" width="28"></li>
-      <li><img src="icons/sightscene.png" alt="ico" width="28"></li>
+      <li><img src="icons/threestar.png" alt="ico" width="20"></li>
+      <li><img src="icons/breakfast.png" alt="ico" width="20"></li>
+      <li><img src="icons/sightscene.png" alt="ico" width="20"></li>
     </ul>
 
 <!-- <p>3* | Transfer | Breakfast | Sightseeing</p> -->
@@ -477,12 +488,14 @@ TRIP 4 DAYS</h5>
     <button type="submit" class="btn btn-primary m-0" id="book_btnylw">View Detail</button>
   </div>
   </div>
+</a>
 </div>
 </div>
 
 
 <div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="fade-up" data-aos-duration="1500">
 <div class="card border-0">
+  <a href="honeymoon.html" target="_blank">
   <img class="card-img-top" src="images/card6.jpg" alt="Card image cap" class="border-0">
   <div class="card-body crd_hght">
     <h5 class="card-title1">MEMORABLE ANDAMAN
@@ -490,13 +503,14 @@ TRIP 4 DAYS</h5>
     <p class="card-text">Complimentary: Juice Pack +
 01 Photo Shoot + Honeymoon Cake</p>
     <ul class="crd_ico">
-      <li><img src="icons/threestar.png" alt="ico" width="28"></li>
-      <li><img src="icons/breakfast.png" alt="ico" width="28"></li>
-      <li><img src="icons/sightscene.png" alt="ico" width="28"></li>
+      <li><img src="icons/threestar.png" alt="ico" width="20"></li>
+      <li><img src="icons/breakfast.png" alt="ico" width="20"></li>
+      <li><img src="icons/sightscene.png" alt="ico" width="20"></li>
     </ul>
 <!-- <p>3* | Transfer | Breakfast | Sightseeing</p> -->
     <button type="submit" class="btn btn-primary m-0" id="book_btnylw">View Detail</button>
   </div>
+</a>
 </div>
 </div>
 
@@ -528,118 +542,133 @@ TRIP 4 DAYS</h5>
       <div class="container">
           <div class="row">
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/image1.jpg">
-                      <img src="images/image1.jpg" alt="Card Image" class="card-img-top">
-      <div  class="desc"> 
+
+<div class="card border-0">
+<a href="tour.html" target="_blank">
+<img src="images/image1.jpg" alt="Card Image" class="card-img-top">
+<div  class="desc"> 
 <div class="desctxt">
 <p class="price">
-<a href="#">Starts from INR 31,500</a></p>
+<a href="tour.html" target="_blank">Starts from INR 31,500</a></p>
 <h6 class="tle">ANDAMAN BIRD WATCHING TRIP</h6>
 <p class="amend">Stay | Vechicle | Guide</p>
 </div>
-      </div>
+</div>
                     </a>
                 
                   </div>
+
               </div>
 
+
+
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/image2.jpg">
+                  <div class="card border-0">
+                      <a href="tour.html" target="_blank">
                       <img src="images/image2.jpg" alt="Card Image" class="card-img-top">
-                    </a>
+          
                       <div class="desc">
                         <div class="desctxt">
-                          <p class="price"><a href="#">Starts from INR 20,000</a></p>
+                          <p class="price"><a href="tour.html" target="_blank">Starts from INR 20,000</a></p>
                           <h6 class="tle">ANDAMAN GAME FISHING TRIP</h6>
                           <p class="amend">Stay | Vechicle</p>
                         </div>
                       </div>
+                     </a>
                   </div>
               </div>
+
+
+
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/image3.jpg">
+                  <div class="card border-0">
+                   
+                    <a href="tour.html" target="_blank">
                       <img src="images/image3.jpg" alt="Card Image" class="card-img-top">
-                    </a>
+                 
                       <div class="desc">
                         <div class="desctxt">
-                          <p class="price"><a href="#">Starts from INR 3,500</a></p>
+                          <p class="price"><a href="tour.html" target="_blank">Starts from INR 3,500</a></p>
                           <h6 class="tle">ANDAMAN SCUBA DIVING</h6>
                           <p class="amend">Port Blair | Havelock</p>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/image4.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/image4.jpg" alt="Card Image" class="card-img-top">
                     </a>
                       <div class="desc">
                         <div class="desctxt">
-                          <p class="price"><a href="#">Starts from INR 3,500</a></p>
+                          <p class="price"><a href="tour.html" target="_blank">Starts from INR 3,500</a></p>
                           <h6 class="tle">ANDAMAN SEA WALK</h6>
                           <p class="amend">Port Blair | Havelock</p>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/image5.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/image5.jpg" alt="Card Image" class="card-img-top">
                     </a>
                       <div class="desc">
                         <div class="desctxt">
-                          <p class="price"><a href="#">Starts from INR 1,000</a></p>
+                          <p class="price"><a href="tour.html" target="_blank">Starts from INR 1,000</a></p>
                           <h6 class="tle">ANDAMAN SNORKELING</h6>
                           <p class="amend">Port Blair | Havelock</p>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/image6.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/image6.jpg" alt="Card Image" class="card-img-top">
                     </a>
                       <div class="desc">
                         <div class="desctxt">
-                          <p class="price"><a href="#">Starts from INR 3,500</a></p>
+                          <p class="price"><a href="tour.html" target="_blank">Starts from INR 3,500</a></p>
                           <h6 class="tle">ANDAMAN PARASAILING</h6>
                           <p class="amend">Port Blair | Havelock</p>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/image7.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/image7.jpg" alt="Card Image" class="card-img-top">
                     </a>
                       <div class="desc">
                         <div class="desctxt">
-                          <p class="price"><a href="#">Starts from INR 1,850</a></p>
+                          <p class="price"><a href="tour.html" target="_blank">Starts from INR 1,850</a></p>
                           <h6 class="tle">ANDAMAN DOLPHINE GLASS BOTTOM</h6>
                           <p class="amend">Port Blair</p>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
                             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/image8.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/image8.jpg" alt="Card Image" class="card-img-top">
                     </a>
                       <div class="desc">
                         <div class="desctxt">
-                          <p class="price"><a href="#">Starts from INR 1,850</a></p>
+                          <p class="price"><a href="tour.html" target="_blank">Starts from INR 1,850</a></p>
                           <h6 class="tle">ANDAMAN CORAL SAFARI</h6>
                           <p class="amend">Port Blair</p>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
           </div>
@@ -685,30 +714,36 @@ Tour Point Basis and Disposal Basis. Drop your requirement and get best quote fr
 
 <div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
 <div class="card border-0">
+  <a href="hotel.html" target="_blank">
   <img class="card-img-top" src="images/card1.jpg" alt="Card image cap">
   <div class="card-body2">
     <h5>TSG Grand</h5>
   </div>
+  </a>
 </div>
 </div>
 
 
 <div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="flip-right" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
 <div class="card border-0">
+  <a href="hotel.html" target="_blank">
   <img class="card-img-top" src="images/card2.jpg" alt="Card image cap">
   <div class="card-body2">
     <h5>HHIR</h5>
   </div>
+  </a>
 </div>
 </div>
 
 
 <div class="col-md-4 col-sm-6 mb-2 p-0" data-aos="flip-left" data-aos-duration="1000" data-aos-easing="ease-out-cubic">
 <div class="card border-0">
+  <a href="hotel.html" target="_blank">
   <img class="card-img-top" src="images/card3.jpg" alt="Card image cap" class="border-0">
   <div class="card-body2">
     <h5>HHBR</h5>
   </div>
+  </a>
 </div>
 </div>
 
@@ -736,105 +771,235 @@ Tour Point Basis and Disposal Basis. Drop your requirement and get best quote fr
       <div class="container">
           <div class="row">
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/cellular.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/cellular.jpg" alt="Card Image" class="card-img-top">
-                    </a>
+                    
                       <div class="card-body3">
                         <div class="desc1">
                           <h6 class="place">CELLULAR JAIL</h6>
                           </div>
                       </div>
+                      </a>
                   </div>
               </div>
 
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/rose.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/rose.jpg" alt="Card Image" class="card-img-top">
-                    </a>
                      <div class="card-body3">
                       <div class="desc1">
                           <h6 class="place">ROSS ISLAND</h6>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/boat.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/boat.jpg" alt="Card Image" class="card-img-top">
-                    </a>
                      <div class="card-body3">
                       <div class="desc1">
                           <h6 class="place">NORTH BAY</h6>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/view.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/view.jpg" alt="Card Image" class="card-img-top">
-                    </a>
                      <div class="card-body3">
                       <div class="desc1">
                           <h6 class="place">HAVELOCK ISLAND</h6>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
                 <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/beach.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/beach.jpg" alt="Card Image" class="card-img-top">
-                    </a>
                      <div class="card-body3">
                       <div class="desc1">
                           <h6 class="place">RADHANAGAR BEACH</h6>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/tree.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/tree.jpg" alt="Card Image" class="card-img-top">
-                    </a>
                      <div class="card-body3">
                       <div class="desc1">
                           <h6 class="place">ELEPHANT BEACH</h6>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
               <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/rock.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/rock.jpg" alt="Card Image" class="card-img-top">
-                    </a>
                      <div class="card-body3">
                       <div class="desc1">
                           <h6 class="place">NEIL ISLAND</h6>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
                             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-duration="1500">
-                  <div class="card border-0 transform-on-hover">
-                    <a class="lightbox" href="images/ship.jpg">
+                  <div class="card border-0">
+                    <a href="tour.html" target="_blank">
                       <img src="images/ship.jpg" alt="Card Image" class="card-img-top">
-                    </a>
                      <div class="card-body3">
                       <div class="desc1">
                           <h6 class="place">BARATANG ISLAND</h6>
                         </div>
                       </div>
+                    </a>
                   </div>
               </div>
           </div>
       </div>
     </section>
+
+
+<section class="enquiry">
+  <div class="container">
+  <div class="row pt-3">
+                <div class="col-md-12">
+                    <!--table start-->
+                    <div class="price_detailtable table-responsive">
+                        <h2 class="text-center">ENQUIREY</h2>
+                        <table class="table table-striped table-bordered">
+                            <thead class="bg-head">
+                                <tr>
+                                    <th>PACKAGES</th>
+                                    <th>LOCATION</th>
+                                    <th>INCLUSION</th>
+                                    <th>BOOK / ENQUIREY</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Andaman Delight Packages</td>
+                                    <td>Portblair, Havelock</td>
+                                    <td><ul class="crd_ico">
+                                    <li><img src="icons/bed.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/restaurant.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/flight.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/binoculars.png" alt="ico" width="20"></li>
+                                    </ul></td>
+                                    <td><a href="#book_form" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="tour_btn">Enquire</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Andaman Super Budget Package</td>
+                                    <td>Portblair</td>
+                                    <td><ul class="crd_ico">
+                                    <li><img src="icons/bed.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/restaurant.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/flight.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/binoculars.png" alt="ico" width="20"></li>
+                                    </ul></td>
+                                    <td><a href="#book_form" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="tour_btn">Enquire</a></td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>Andaman Local Tour Package</td>
+                                    <td>Portblair</td>
+                                     <td><ul class="crd_ico">
+                                    <li><img src="icons/bed.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/restaurant.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/flight.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/binoculars.png" alt="ico" width="20"></li>
+                                    </ul></td>
+                                    <td><a href="#book_form" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="tour_btn">Enquire</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Andaman Sightseeing Package</td>
+                                    <td>Portblair, Havelock</td>
+                                     <td><ul class="crd_ico">
+                                    <li><img src="icons/bed.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/restaurant.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/flight.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/binoculars.png" alt="ico" width="20"></li>
+                                    </ul></td>
+                                    <td><a href="#book_form" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="tour_btn">Enquire</a></td> 
+                                </tr>
+                                <tr>
+                                    <td>Andaman Budget Tour Package</td>
+                                    <td>Portblair</td>
+                                     <td><ul class="crd_ico">
+                                    <li><img src="icons/bed.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/restaurant.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/flight.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/binoculars.png" alt="ico" width="20"></li>
+                                    </ul></td>
+                                    <td><a href="#book_form" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="tour_btn">Enquire</a></td> 
+                                </tr>
+                                <tr>
+                                    <td>Andaman Backpacker Tour Package</td>
+                                    <td>Portblair, Havelock</td>
+                                     <td><ul class="crd_ico">
+                                    <li><img src="icons/bed.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/restaurant.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/flight.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/binoculars.png" alt="ico" width="20"></li>
+                                    </ul></td>
+                                    <td><a href="#book_form" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="tour_btn">Enquire</a></td> 
+                                </tr>
+                                <tr>
+                                    <td>Andaman Standard Package</td>
+                                    <td>Portblair, Havelock </td>
+                                     <td><ul class="crd_ico">
+                                    <li><img src="icons/bed.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/restaurant.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/flight.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/binoculars.png" alt="ico" width="20"></li>
+                                    </ul></td>
+                                    <td><a href="#book_form" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="tour_btn">Enquire</a></td> 
+                                </tr>
+                                <tr>
+                                    <td>LTC Andaman Tour Package</td>
+                                    <td>Portblair, Neil</td>
+                                     <td><ul class="crd_ico">
+                                    <li><img src="icons/bed.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/restaurant.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/flight.png" alt="ico" width="20"></li>
+                                    <li><img src="icons/binoculars.png" alt="ico" width="20"></li>
+                                    </ul></td>
+                                    <td><a href="#book_form" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" id="tour_btn">Enquire</a></td> 
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                
+
+                </div>
+            </div>
+          </div>
+         
+
+    
+</section>
+
+
+
+
+
+
+
+
 
 
 
@@ -849,7 +1014,7 @@ Tour Point Basis and Disposal Basis. Drop your requirement and get best quote fr
 <div class="main-gallery">
   <div class="gallery-cell">
     <div class="testimonial">
-        <img class="testimonial-avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
+        <img class="testimonial-avatar" src="images/say1.jpg">
       <q class="testimonial-quote">"We went andaman with my family we had
 great time at Andaman. They given nice
 hotel's at port Blair and havelock and the
@@ -871,6 +1036,72 @@ admirable. Stay was pleasant. Great experience"</q>
 </div>
 
     <!----------- Footer ------------>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+       <!--  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="modal-body">
+      <div class="wrapper_form">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 demo">
+    <h1 class="text-center text-white">Book Now Your First Trip To Andaman</h1>
+
+
+
+    <form method="POST" id="mformsec" target="hidden_iframe" onsubmit="submitted=true;"  name="contactform" class="form text-center gform" data-aos="fade-up" data-aos-duration="1500" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScFeUUIl6z-XxjGn7XyDH0wUs-i0tvNu9orEkmW1-L1wK_hXQ/formResponse">
+
+      <input type="text" placeholder="Your Name" name="entry.296518835"  id="mfname">
+      <input type="number" placeholder="Phone" id="mnumber" name="entry.1068701435">
+      <input type="email" placeholder="Email" id="memailid"  name="entry.479446177">
+      <select class="text-center"  name="entry.1044219946" id="mtocall">
+        <option value="" disabled selected>Preferable Time To Call</option>
+            <option name="entry.1044219946" value="09:00 to 06:00 AM">09:00 to 06:00 AM</option>
+            <option name="entry.1044219946" value="10:00 to 12:00 PM">10:00 to 12:00 PM</option>
+            </select>
+             <div id="merrors"></div>
+      <div>
+      <input type="button" id="mlogin-button" value="Book Now">
+      </div>
+    </form>
+    <div id="mthank_con"></div>
+  </div>
+  
+  <ul class="bg-bubbles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+      </div>
+<!--       <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+<script src="js/modal.js"></script>
+<!--model end-->
     
 <script type="text/javascript">function add_chatinline(){var hccid=25327206;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
 add_chatinline(); </script>
