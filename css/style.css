@@ -843,6 +843,7 @@ footer a:hover
 
 .btm_nav li{
   color: #000 !important;
+  list-style-type: none;
 }
 
 .social-block ul li
