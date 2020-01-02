@@ -2056,14 +2056,11 @@ background-color: #FF9800;
   font-family: Helvetica, sans-serif;
   line-height: 40px;
   text-align: center;
-  background-color: #ffffff14;
   z-index: 10;
   cursor: pointer;
   transition: background 0.3s ease;
 }
-.gallery-arrow:hover {
-  background: #ffffff1a;
-}
+
 .gallery-arrow.mod-prev {
   left: 0;
   border-radius: 0 4px 4px 0;
