@@ -3,13 +3,13 @@ $(document).ready(function(){
   	var scroll = $(window).scrollTop();
 	  if (scroll > 300) {
        $('#back2Top').fadeIn();
-	    $(".navbar").css({"background":"rgba(255, 255, 255, 0.75)","transition":"0.5s"});
+	    $(".navbar").css({"background":"rgba(41, 41, 41, 0.89)","transition":"0.5s"});
 	/*	$(".container-fluid").removeClass("border-bottom");*/
 	  }
 
 	  else{
        $('#back2Top').fadeOut();
-		  $(".navbar").css("background" , "rgba(255, 255, 255, 0.75)");  	
+		  $(".navbar").css("background" , "rgba(41, 41, 41, 0.89)");  	
 		/*  $(".container-fluid").addClass("border-bottom");*/
 	  }
   });
