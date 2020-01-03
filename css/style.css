@@ -2137,6 +2137,12 @@ background-color: #FF9800;
   z-index: 10;
 }
 
+.b_or{
+      border: solid 2px #f5851f !important;
+          background-color: #ff980042;
+    font-weight: bold;
+}
+
 
 @media (min-width: 576px) {
 
