@@ -53,6 +53,14 @@ transition: .8s;
   display: block;
 }
 
+.w_20{
+  width:20%;
+}
+
+.w_10{
+  width:10px;
+}
+
 /**drop**/
 
 .navbar{
@@ -2144,6 +2152,10 @@ background-color: #FF9800;
   .dropdown_cnt{
     font-size: 12px;
   width: 140px;
+}
+
+.packlist .card-block{
+  min-height: auto;
 }
 
 .enquiry .crd_ico li{
