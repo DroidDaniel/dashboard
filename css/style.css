@@ -1095,7 +1095,7 @@ border:none;
     transform: rotate(270deg);
     position: fixed;
     bottom: 0;
-    right: 230px;
+    right: 100px;
 background-color: #f6841f;
     color: #1b1f1e;
     text-align: center;
@@ -1452,6 +1452,11 @@ position: relative;
   margin: 0;
  
 }
+
+
+
+ 
+
 
 .desc h6{
     font-size: 14px !important;
