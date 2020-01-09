@@ -1603,6 +1603,21 @@ label{
   color: #003102;
 }
 
+#mthank_con{
+  width: 100%;
+  position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .25s ease-in-out;
+}
+
+#mthank_con h5{
+  text-align: center;
+  font-size: 1rem;
+  color: #003102;
+}
+
 .cardbox_sec,.hotels_sec,.cardpack_sec{
   padding: 5rem 0;
   background-color: #E6E7E8;
